@@ -19,3 +19,6 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
   }
+  .progress-primary::-webkit-progress-value {
+    background-color: #31BA96!important;
+  }
