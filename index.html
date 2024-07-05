@@ -12,7 +12,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="h-screen  p-5 grid grid-cols-[20%_78%] gap-[2%]">
+<body class="h-[100vh]  p-5 grid grid-cols-[20%_78%] gap-[2%]">
     <section class="p-10">
         <div class="user-profile">
             <div class="user-image indicator mb-5">
@@ -52,32 +52,31 @@
 
                     </div>
                 </div>
-                <div class="graph-part h-[15%]">
-                    <div class="flex gap-1 *:-rotate-90">
-                        <progress class="progress progress-try" value="10" max="100"></progress>
-                        <progress class="progress progress-try" value="40" max="100"></progress>
-                        <progress class="progress progress-try" value="70" max="100"></progress>
-                        <progress class="progress progress-try" value="100" max="100"></progress>
-                        <progress class="progress progress-try" value="40" max="100"></progress>
-                        <progress class="progress progress-try" value="80" max="100"></progress>
-                        <progress class="progress progress-try" value="40" max="100"></progress>
-                        <progress class="progress progress-try" value="10" max="100"></progress>
-                        <progress class="progress progress-try" value="40" max="100"></progress>
-                        <progress class="progress progress-try" value="70" max="100"></progress>
-                        <progress class="progress progress-try" value="100" max="100"></progress>
-                        <progress class="progress progress-try" value="40" max="100"></progress>
-                        <progress class="progress progress-try" value="80" max="100"></progress>
-                        <progress class="progress progress-try" value="40" max="100"></progress>
-                        <progress class="progress progress-try" value="10" max="100"></progress>
-                        <progress class="progress progress-try" value="40" max="100"></progress>
-                        <progress class="progress progress-try" value="70" max="100"></progress>
-                        <progress class="progress progress-try" value="100" max="100"></progress>
-                        <progress class="progress progress-try" value="40" max="100"></progress>
-                        <progress class="progress progress-try" value="80" max="100"></progress>
-                        <progress class="progress progress-try" value="40" max="100"></progress>
-                        <progress class="progress progress-try" value="80" max="100"></progress>
-                        <progress class="progress progress-try" value="40" max="100"></progress>
-                    </div>
+                <div class="graph-part">
+                        <div class="column" style="height: 40%;"></div>
+                        <div class="column" style="height: 60%;"></div>
+                        <div class="column" style="height: 50%;"></div>
+                        <div class="column" style="height: 40%;"></div>
+                        <div class="column" style="height: 50%;"></div>
+                        <div class="column" style="height: 60%;"></div>
+                        <div class="column" style="height: 70%;"></div>
+                        <div class="column" style="height: 80%;"></div>
+                        <div class="column" style="height: 90%;"></div>
+                        <div class="column" style="height: 69%;"></div>
+                        <div class="column" style="height: 90%;"></div>
+                        <div class="column" style="height: 80%;"></div>
+                        <div class="column" style="height: 70%;"></div>
+                        <div class="column" style="height: 60%;"></div>
+                        <div class="column" style="height: 50%;"></div>
+                        <div class="column" style="height: 45%;"></div>
+                        <div class="column" style="height: 60%;"></div>
+                        <div class="column" style="height: 40%;"></div>
+                        <div class="column" style="height: 70%;"></div>
+                        <div class="column" style="height: 50%;"></div>
+                        <div class="column" style="height: 75%;"></div>
+                        <div class="column" style="height: 45%;"></div>
+                        <div class="column" style="height: 85%;"></div>
+                    
                 </div>
                 <div class="">
                     <div class="expense-amounts">
@@ -226,7 +225,7 @@
                     </div>
                 </div>
                 <div class="view-tips bg-[#EDF0F6] !rounded-3xl p-6">
-                    <div class="images flex justify-between -mt-16 items-center">
+                    <div class="images flex justify-between -mt-20 items-end">
                         <img class="h-16 object-contain" src="assets/images/illustration.png" alt="">
                         <img class="h-24 object-contain" src="assets/images/illustration (1).png" alt="">
                     </div>
@@ -235,7 +234,7 @@
                         <h4 class="poppins text-xs font-normal pb-3">eiusmod tempor incididunt ut labore et dolore magna
                             aliqua. Ut enim ad minim.</h4>
                         <button
-                            class="btn bg-[#101010] text-center mx-auto w-full text-[#ffffff] poppins text-sm font-semibold">VIEW
+                            class="btn bg-[#101010] text-center mx-auto w-full text-[#ffffff] hover:text-black poppins text-sm font-semibold">VIEW
                             TIPS</button>
                     </div>
                 </div>
