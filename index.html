@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="light" class="bg-[#111111]">
 
 <head>
     <meta charset="UTF-8">
@@ -12,7 +12,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="h-screen bg-[#111111] p-5 grid grid-cols-[20%_78%] gap-[2%]">
+<body class="h-screen  p-5 grid grid-cols-[20%_78%] gap-[2%]">
     <section class="p-10">
         <div class="user-profile">
             <div class="user-image indicator mb-5">
@@ -52,28 +52,135 @@
 
                     </div>
                 </div>
-                <div class="graph-part py-12 bg-slate-200"></div>
-                <div class="expense-amounts">
-                    <div class="toady flex justify-between py-3">
-                        <h3 class="avenir text-lg">Today</h3>
-                        <img src="assets/images/Group 3.svg" alt="">
+                <div class="graph-part h-[15%]">
+                    <div class="flex gap-1 *:-rotate-90">
+                        <progress class="progress progress-try" value="10" max="100"></progress>
+                        <progress class="progress progress-try" value="40" max="100"></progress>
+                        <progress class="progress progress-try" value="70" max="100"></progress>
+                        <progress class="progress progress-try" value="100" max="100"></progress>
+                        <progress class="progress progress-try" value="40" max="100"></progress>
+                        <progress class="progress progress-try" value="80" max="100"></progress>
+                        <progress class="progress progress-try" value="40" max="100"></progress>
+                        <progress class="progress progress-try" value="10" max="100"></progress>
+                        <progress class="progress progress-try" value="40" max="100"></progress>
+                        <progress class="progress progress-try" value="70" max="100"></progress>
+                        <progress class="progress progress-try" value="100" max="100"></progress>
+                        <progress class="progress progress-try" value="40" max="100"></progress>
+                        <progress class="progress progress-try" value="80" max="100"></progress>
+                        <progress class="progress progress-try" value="40" max="100"></progress>
+                        <progress class="progress progress-try" value="10" max="100"></progress>
+                        <progress class="progress progress-try" value="40" max="100"></progress>
+                        <progress class="progress progress-try" value="70" max="100"></progress>
+                        <progress class="progress progress-try" value="100" max="100"></progress>
+                        <progress class="progress progress-try" value="40" max="100"></progress>
+                        <progress class="progress progress-try" value="80" max="100"></progress>
+                        <progress class="progress progress-try" value="40" max="100"></progress>
+                        <progress class="progress progress-try" value="80" max="100"></progress>
+                        <progress class="progress progress-try" value="40" max="100"></progress>
                     </div>
-                    <div class="single-expenses flex flex-col">
-                        <i class="fa-light fa-cart-shopping"></i>
-                        <div class="flex flex-col justify-between">
-                            <div class="grid grid-cols-[25%_75%]">
-                                <h3>Grocery</h3>
-                                <h6>5:12 pm • Belanja di pasar</h6>
+                </div>
+                <div class="">
+                    <div class="expense-amounts">
+                        <div class="toady flex justify-between py-3">
+                            <h3 class="avenir text-lg">Today</h3>
+                            <img src="assets/images/Group 3.svg" alt="">
+                        </div>
+                        <div class="divider my-0"></div>
+                        <div class="single-expenses flex gap-5 py-3">
+                            <!-- icon -->
+                            <span
+                                class="text-white bg-[#32a7e2] w-12 h-12 rounded-full !text-base flex items-center justify-center">
+                                <i class=" fa-solid fa-cart-shopping "></i>
+                            </span>
+                            <!-- text -->
+                            <div class="flex justify-between grow">
+                                <div class="">
+                                    <h3 class="poppins font-medium">Grocery</h3>
+                                    <h6 class="poppins font-normal text-[#878787] tracking-wider">5:12 pm • Belanja di
+                                        pasar
+                                    </h6>
+                                </div>
+                                <h3 class="poppins font-semibold">-326.800</h3>
                             </div>
-                            <h3>-326.800</h3>
+                        </div>
+                        <div class="single-expenses flex gap-5 py-3">
+                            <!-- icon -->
+                            <span
+                                class="text-white bg-[#b548c6] w-12 h-12 rounded-full !text-base flex items-center justify-center">
+                                <i class="fa-solid fa-bus"></i>
+                            </span>
+                            <!-- text -->
+                            <div class="flex justify-between grow">
+                                <div class="">
+                                    <h3 class="poppins font-medium">Transportation</h3>
+                                    <h6 class="poppins font-normal text-[#878787] tracking-wider">5:12 pm • Naik bus umum
+                                    </h6>
+                                </div>
+                                <h3 class="poppins font-semibold">-15.000</h3>
+                            </div>
+                        </div>
+                        <div class="single-expenses flex gap-5 py-3">
+                            <!-- icon -->
+                            <span
+                                class="text-white bg-[#ff8700] w-12 h-12 rounded-full !text-base flex items-center justify-center">
+                                <i class="fa-solid fa-house"></i>
+                            </span>
+                            <!-- text -->
+                            <div class="flex justify-between grow">
+                                <div class="">
+                                    <h3 class="poppins font-medium">Housing</h3>
+                                    <h6 class="poppins font-normal text-[#878787] tracking-wider">5:12 pm • Bayar Listrik
+                                    </h6>
+                                </div>
+                                <h3 class="poppins font-semibold">-185.750</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="expense-amounts mt-5">
+                        <div class="toady flex justify-between py-3">
+                            <h3 class="avenir text-lg">Monday, 23 March 2020</h3>
+
+                            <img src="assets/images/Group 3.svg" alt="">
+                        </div>
+                        <div class="divider my-0"></div>
+                        <div>
+                            <div class="single-expenses flex gap-5 py-3">
+                                <!-- icon -->
+                                <span
+                                    class="text-white bg-[#dc3434] w-12 h-12 rounded-full !text-base flex items-center justify-center">
+                                    <img src="assets/images/shape.svg" alt="" srcset="">
+                                </span>
+                                <!-- text -->
+                                <div class="flex justify-between grow">
+                                    <div class="">
+                                        <h3 class="poppins font-medium">Food and Drink</h3>
+                                        <h6 class="poppins font-normal text-[#878787] tracking-wider">5:12 pm • Makan Steak</h6>
+                                    </div>
+                                    <h3 class="poppins font-semibold">-156.000</h3>
+                                </div>
+                            </div>
+                            <div class="single-expenses flex gap-5 py-3">
+                                <!-- icon -->
+                                <span
+                                    class="text-white bg-[#4ba83d] w-12 h-12 rounded-full !text-base flex items-center justify-center">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                </span>
+                                <!-- text -->
+                                <div class="flex justify-between grow">
+                                    <div class="">
+                                        <h3 class="poppins font-medium">Entertainment</h3>
+                                        <h6 class="poppins font-normal text-[#878787] tracking-wider">5:12 pm • Nonton Bioskop</h6>
+                                    </div>
+                                    <h3 class="poppins font-semibold">-35.200</h3>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
-
                 </div>
             </div>
             <div class="bg-[#F9FAFC] h-full py-10 px-10 rounded-tr-3xl rounded-br-3xl flex flex-col justify-between">
-                <div class="progress-part pb-6">
+                <div class="progress-part">
                     <h3 class="avenir2 text-xl text-[#262A41] font-semibold">Where your money go?</h3>
                     <div class="progress-bars py-8">
                         <div class="single-progress grid gap-2 pb-4">

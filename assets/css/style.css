@@ -20,5 +20,22 @@
     font-style: normal;
   }
   .progress-primary::-webkit-progress-value {
-    background-color: #31BA96!important;
+    background-color: #095c46!important;
   }
+
+  .progress-try{
+    width: 100%!important;
+    border-radius: 0px !important;
+    height: 25px!important;
+  
+  }
+  .progress-try::-webkit-progress-value {
+    border-radius: 0px !important;
+  }
+  
+  .progress-try::-moz-progress-bar {
+    border-radius: 0px !important;
+    background-color: var(--fallback-p, oklch(var(--p)/var(--tw-bg-opacity)));
+  }
+  
+  
